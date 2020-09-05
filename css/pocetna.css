@@ -1,0 +1,369 @@
+header{
+ 
+ 	font-family: courier;
+ 	background-color: lightgrey;
+}
+
+header .responsive{
+  	max-width: 100%;
+}
+
+header .MO{
+	font-family: arial;
+	color: white;
+	position: absolute;
+  	top: 60%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+header .nav-link {
+	color: white;
+	font-size: 30px;
+	margin-top: 15px;
+}
+
+header ul li {
+	padding: 15px;
+}
+
+
+header ul li a{
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+.crta{
+	margin-bottom: 1%;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 1%;
+}
+
+
+.logo{
+	width: 77px;
+	height: 111px;
+    float: left;
+    margin-top: 0.5%;
+    margin-left: 10%;
+    margin-right: -10%;
+}
+
+header .carousel-indicators li{
+	padding: 0;
+    width: 5%;
+    margin-bottom: 2%;
+}
+
+.carousel-caption{
+	margin-bottom:8%;
+}
+
+
+
+.middle .vrh_middle{
+	background-color: rgb(168, 168, 168);
+	padding: 1%;
+} 
+.middle .vrh_middle h2{
+	color: white;
+	text-align: center;
+	font-size: 2.5vw;
+	font-family: 'Times New Roman', Times, serif;
+	width: 85%;
+	margin: auto;
+	border-bottom: solid rgb(184, 184, 184) 2px;
+	padding: 0.5%;
+}
+.row{
+	margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.middle .vrh_middle .opis_vrh{
+	color: white;
+	text-align: center;
+	font-size: 1.4vw;
+	font-family: 'Times New Roman', Times, serif;
+	width: 80%;
+	margin: auto;
+	padding: 1%;
+}
+
+.sredina_middle {
+	background-color: rgb(255, 205, 205);
+	background-image: linear-gradient(to bottom right, rgb(155, 140, 140), rgb(255, 255, 219));
+	width: 100%;
+	margin: 0;
+}
+.sredina_middle .sredina_middle_galerija{
+	  width: 25%;
+	  margin: 2% 12.5%;
+}
+
+
+.sredina_middle .sredina_middle_galerija .galerija{
+	width: 100%;
+}
+.sredina_middle .sredina_middle_galerija .galerija img{
+	width: 100%;
+	text-decoration: none;
+}
+
+.sredina_middle .sredina_middle_galerija .strelica{
+	width: 20%;
+	float: right;
+	margin: 5%;
+	margin-right: 35%;
+	filter: grayscale(80%)
+}
+.sredina_middle .sredina_middle_galerija h2{
+	font-size: 2.5vw;
+	text-align: center;
+	font-weight: bold;
+	background-color: red;
+	background-image: linear-gradient(45deg, #413dff, #acff85);	
+	background-size: 100%;
+	background-repeat: repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+	-moz-background-clip: text;
+	-moz-text-fill-color: transparent;
+}
+
+.sredina_middle .sredina_middle_galerija .galerija img:hover{
+	box-shadow:7px 7px 40px 10px rgb(70, 70, 70) ;
+	transition: .5s all ease;
+	-webkit-transform: translate(2%, 2%);
+  -ms-transform: translate(2%, 2%);
+  transform: translate(2%, 2%);
+}
+
+.middle .bottom_galerija{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	position: relative;
+	margin-top: 2%;
+}
+
+.middle .bottom_galerija .dvadesetposto{
+	width: 25%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+
+}
+
+.middle .bottom_galerija .dvadesetposto img{
+	
+	width: 100%;
+
+}
+.middle .bottom_galerija img{
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+}
+.middle .bottom_galerija .bottom_galerija_hover{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.middle .bottom_galerija:hover img{
+	opacity: 0.3;
+}
+
+
+.middle .bottom_galerija:hover .bottom_galerija_hover{
+	opacity: 1;
+}
+
+.middle .bottom_galerija_hover .bottom_galerija_tekst{
+ 	color: rgb(0, 0, 0);
+	font-size: 3vw;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+
+.kontakt{
+	background-color: rgb(194, 214, 214);
+	width: 100%;
+	height: auto;
+	padding: 2%;
+}
+
+.middle .kontakt .forma{
+	width: 40%;
+	height: auto;
+	border: 3px rgb(224, 224, 224) solid;
+	border-radius: 20px;
+	margin: auto;
+	padding: 1%;
+}
+
+.kontakt_naslov{
+	font-size: 1.7vw;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+	border-bottom: 2px solid rgb(217, 228, 228);
+}
+
+.kontakt_opis{
+	font-size: 1vw;
+	font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 40px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #007b5e !important;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    -webkit-text-decoration-skip: objects;
+}
+
+#footer ul.social li a i {
+    margin-right: 5px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	margin-top:-10px;
+}
+
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+
+section p {
+	text-align: center; 
+	font-size: 20px;
+	color: white;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+
+
+
+@media (max-width:600px){
+	.logo {
+		position: absolute;
+		float: none;
+		margin-top:  1%;
+		margin-left: 33%;
+		margin-right: 60%;
+}
+.justify-content-center{
+	transform: translateY(70%);
+}
+.crta{
+	margin-top: 15% ;
+}
+
+.nav li{
+	margin: auto;
+	padding: 0;
+	width: 50%;
+}
+.nav li {
+	margin: auto;
+	padding: 0;
+	text-align: center;
+}
+
+.nav li strong{
+	font-size: 6vw;
+}
+
+.carousel-caption{
+	margin-bottom:-5%;
+	margin-top: 10%;
+}
+
+header .nav-link{
+	margin-top: 0;
+	padding: 0;
+}
+
+.middle .vrh_middle h2{
+	font-size: 8vw;
+}
+.middle .vrh_middle .opis_vrh{
+	font-size: 5vw;
+}
+
+.sredina_middle .sredina_middle_galerija{
+	width: 100%;
+}
+
+.sredina_middle .sredina_middle_galerija h2{
+	font-size: 7vw;
+}
+
+.middle .bottom_galerija .dvadesetposto{
+	width: 50%;
+
+}
+.middle .kontakt .forma{
+	width: 80%;
+	border-radius: 10px;
+}
+
+.kontakt{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.kontakt_naslov{
+	font-size: 5vw;
+}
+.kontakt_opis{
+	font-size: 3.5vw;
+}
+
+#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
