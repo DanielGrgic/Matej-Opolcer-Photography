@@ -187,14 +187,18 @@ section p {
 		position: absolute;
 		float: none;
 		margin-top:  1%;
-		margin-left: 37%;
+		margin-left: 33%;
 		margin-right: 60%;
+}
+
+.justify-content-center{
+	transform: translateY(70%);
 }
 .second{
 	transform: translateY(10%);
 }
 .crta{
-	margin-top: 4% ;
+	margin-top: 15% ;
 }
 
 .nav li{
