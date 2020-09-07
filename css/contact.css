@@ -224,6 +224,9 @@ h1 strong{
    width: 100%;
    text-align: left;
 }
+h2{
+	font-size: 4.5vw;
+}
 }
 
 a{
