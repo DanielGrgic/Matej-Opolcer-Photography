@@ -134,6 +134,25 @@ section p {
    margin: 3% auto 5% auto;
 }
 
+
+.crta{
+	margin-bottom: 1%;
+	width: 50%;
+	margin: auto;
+	
+}
+
+.priroda-sadrzaj{
+	text-align: center;
+	font-size: 2vw;
+	font-family: 'Times New Roman', Times, serif;
+	width: 85%;
+	margin: auto;
+	border-bottom: solid rgb(184, 184, 184) 1.5px;
+	padding: 0.7%;
+}  
+
+
 .slika{
 	width: 50%;
 }
@@ -142,6 +161,19 @@ section p {
 	width: 33%;
 }
 
+.slika-cigara{
+	width: 80%;
+	display: block;
+	box-shadow: 9px 9px 7px gray;
+	margin: 5% auto 0 auto;
+}
+
+.slika-laura{
+	width: 80%;
+	display: block;
+	box-shadow: 9px 9px 7px gray;
+	margin: 3% auto 5% auto;
+}
 
 
 
@@ -151,9 +183,10 @@ section p {
 		position: absolute;
 		float: none;
 		margin-top:  1%;
-		margin-left: 37%;
+		margin-left: 38.5%;
 		margin-right: 60%;
 }
+
 .justify-content-center{
 	transform: translateY(90%);
 }
@@ -163,6 +196,8 @@ section p {
 .crta{
 	margin-top: 25% ;
 }
+
+
 
 .nav li{
 	margin: auto;
