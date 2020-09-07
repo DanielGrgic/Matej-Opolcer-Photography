@@ -134,6 +134,13 @@ section p {
    margin: 3% auto 5% auto;
 }
 
+.slika{
+	width: 50%;
+}
+
+.slika1{
+	width: 33%;
+}
 
 .crta{
 	margin-bottom: 1%;
@@ -196,7 +203,6 @@ section p {
 .crta{
 	margin-top: 25% ;
 }
-
 
 
 .nav li{
