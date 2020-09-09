@@ -10,6 +10,9 @@ header{
      text-align: center;
      color: white;
 }
+a:hover{
+color:white;
+}
 .crta{
 	margin-bottom: 1%;
 	width: 50%;
