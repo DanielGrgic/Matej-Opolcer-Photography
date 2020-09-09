@@ -26,6 +26,11 @@ header .nav-link {
 header ul li {
 	padding: 15px;
 }
+.opis_vrh, a{
+	color: #5e5150;
+	text-decoration: none;
+	
+}
 
 
 header ul li a{
